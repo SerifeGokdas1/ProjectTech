@@ -1,0 +1,162 @@
+﻿@using EntityLayer.Concrete
+@model AllEntities
+@{
+    Layout = null;
+
+    // #region Service
+    // List<Service> lastFourServices = Model.Services.Where(s => s.ServiceStatus).Take(4).Reverse().ToList();
+    // List<Service> serviceList = new List<Service>();
+
+    // for (int i = 0; i < 4; i++)
+    // {
+    //     Service service;
+    //     if (i == 0)
+    //     {
+    //         service = lastFourServices.FirstOrDefault();
+    //         serviceList.Add(service);
+    //     }
+    //     else
+    //     {
+    //         service = lastFourServices.Skip(i).FirstOrDefault();
+    //         serviceList.Add(service);
+    //     }
+    // }
+    // for (int i = 0; i < serviceList.Count; i++)
+    // {
+    //     if (serviceList[i] != null)
+    //     {
+    //         serviceList[i].ServiceName = string.IsNullOrEmpty(serviceList[i]?.ServiceName) ? "Varsayılan ilk name" : serviceList[i]?.ServiceName;
+    //         serviceList[i].ServiceTitle = string.IsNullOrEmpty(serviceList[i]?.ServiceTitle) ? "Varsayılan  ilk servis başlığı." : serviceList[i]?.ServiceTitle;
+    //         serviceList[i].ServiceDescription = string.IsNullOrEmpty(serviceList[i]?.ServiceDescription) ? "Varsayılan  ilk servis açıklaması." : serviceList[i]?.ServiceDescription;
+    //         serviceList[i].ServiceImage = string.IsNullOrEmpty(serviceList[i]?.ServiceImage) ? "Varsayılan  resim" : serviceList[i]?.ServiceImage;
+    //         serviceList[i].FirstEffectiveSentence = string.IsNullOrEmpty(serviceList[i]?.FirstEffectiveSentence) ? "Varsayılan ilk servis  ilk anahtar kelime." : serviceList[i]?.FirstEffectiveSentence;
+    //         serviceList[i].SecondEffectiveSentence = string.IsNullOrEmpty(serviceList[i]?.SecondEffectiveSentence) ? "Varsayılan ilk servis  ikinci anahtar kelime." : serviceList[i]?.SecondEffectiveSentence;
+    //         serviceList[i].ThirdEffectiveSentence = string.IsNullOrEmpty(serviceList[i]?.ThirdEffectiveSentence) ? "Varsayılan ilk servis  üçüncü anahtar kelime." : serviceList[i]?.ThirdEffectiveSentence;
+    //     }
+    //     else
+    //     {
+    //         // serviceList[i] = new Service
+    //         //         {
+    //         //             ServiceName = "",
+    //         //         };
+    //     }
+    // }
+
+    // #endregion
+
+    #region ServiceHeader
+    List<ServiceHeader> lastSixServiceHeader = Model.ServiceHeaders.Where(s => s.ServiceHeaderStatus).OrderByDescending(s => s.ServiceHeaderId).Take(6).ToList();
+    List<ServiceHeader> serviceHeaderList = new List<ServiceHeader>();
+
+    for (int i = 0; i < 6; i++)
+    {
+        ServiceHeader serviceHeader;
+        if (i == 0)
+        {
+            serviceHeader = lastSixServiceHeader.FirstOrDefault();
+            serviceHeaderList.Add(serviceHeader);
+        }
+        else
+        {
+            serviceHeader = lastSixServiceHeader.Skip(i).FirstOrDefault();
+            serviceHeaderList.Add(serviceHeader);
+        }
+    }
+    for (int i = 0; i < serviceHeaderList.Count; i++)
+    {
+        if (serviceHeaderList[i] != null ||serviceHeaderList[i] ==null)
+        {
+            serviceHeaderList[i].ServiceHeaderKeyword = string.IsNullOrEmpty(serviceHeaderList[i]?.ServiceHeaderKeyword) ? "ilk kelime" : serviceHeaderList[i]?.ServiceHeaderKeyword;
+            serviceHeaderList[i].ServiceHeaderDescription = string.IsNullOrEmpty(serviceHeaderList[i]?.ServiceHeaderDescription) ? "Varsayılan başlık  ilk açıklama." : serviceHeaderList[i]?.ServiceHeaderDescription;
+        }
+        // else
+        // {
+        //     // serviceHeaderList[i] = new ServiceHeader
+        //     //         {
+        //     //             ServiceHeaderKeyword = "",
+        //     //         };
+        // }
+    }
+    #endregion
+}
+
+
+@* <!-- Page Title -->
+<div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/services-page-title-bg.jpg);">
+    <div class="container">
+        <h1>Hizmetlerimiz</h1>
+        <nav class="breadcrumbs">
+            <ol>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li class="current">Hizmetlerimiz</li>
+            </ol>
+        </nav>
+    </div>
+</div><!-- End Page Title --> *@
+
+
+<!-- Services Section -->
+<section id="services" class="services section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Hizmetlerimiz</h2>
+        <p>Şirketinizi hedeflerine ulaştırmak için gereken tüm ihtiyaçlarınızı yıllardır eksiksiz karşılıyoruz.</p>
+    </div><!-- End Section Title -->
+
+    <div class="container">
+
+        <div class="row gy-4">
+            @for (int i = 0; i < 6; i++)
+            {
+                <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon flex-shrink-0"><i class="bi bi-briefcase" style="color: #f57813;"></i></div>
+                    <div>
+                        <h4 class="title">@serviceHeaderList[i].ServiceHeaderKeyword</h4>
+                        <p class="description">@serviceHeaderList[i].ServiceHeaderDescription</p>
+                    </div>
+                </div>
+                <!-- End Service Item -->
+            }
+
+        </div>
+
+    </div>
+
+</section><!-- /Services Section -->
+
+<!-- Service Cards Section -->
+@* <section id="service-cards" class="service-cards section">
+
+    <div class="container-fluid">
+
+        <div class="row gy-4">
+            @for (int i = 0; i < 4; i++)
+            {
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-item">
+                        <div class="row">
+                            <div class="col-xl-5">
+                                <div class="card-bg"><img src="~/WebTemplate/assets/img/cards-1.jpg" alt=""></div>
+                            </div>
+                            <div class="col-xl-7 d-flex align-items-center">
+                                <div class="card-body">
+                                    <h4 class="card-title">@serviceList[i].ServiceName</h4>
+                                    <p>@serviceList[i].ServiceDescription</p>
+                                    <br />
+                                    <a href="#" class="readmore stretched-link"><span>Daha Fazla Öğren</span><i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End Card Item -->
+            }
+        </div>
+
+    </div>
+
+</section><!-- /Service Cards Section -->
+ *@
+

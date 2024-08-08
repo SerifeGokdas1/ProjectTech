@@ -1,0 +1,83 @@
+﻿@using EntityLayer.Concrete
+@model AllEntities
+
+@{
+    ViewData["Title"] = "ServiceDetail";
+    Layout = "~/Views/Shared/WebsiteLayout.cshtml";
+
+    #region Contact
+    Contact contact = Model.Contacts.Where(x => x.ContactStatus).LastOrDefault();
+    #endregion
+
+    #region Services
+    List<Service> services = Model.Services.Where(x => x.ServiceStatus).OrderByDescending(s => s.ServiceId).Take(4).ToList();
+    #endregion
+
+}
+
+<!-- Page Title -->
+<div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/services-page-title-bg.jpg);">
+    <div class="container">
+        <h1>Service Details</h1>
+        <nav class="breadcrumbs">
+            <ol>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li class="current">Hizmetlerimiz - @Model.Service.ServiceName</li>
+            </ol>
+        </nav>
+    </div>
+</div><!-- End Page Title -->
+<!-- Service Details Section -->
+<section id="service-details" class="service-details section">
+
+    <div class="container">
+
+        <div class="row gy-5">
+
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="service-box">
+                    <h4>Hizmetlerimiz</h4>
+                    <div class="services-list">
+                        @for(int i=0; i<services.Count; i++)
+                        {
+                            <a href="/Service/ServiceDetail/@services[i].ServiceId" class="nav-item nav-link @(Context.Request.Path == "/Service/ServiceDetail/@services[i].ServiceId" ? "active" : "")"><i class="bi bi-arrow-right-circle"></i><span>@services[i].ServiceName</span></a>
+                        }
+                    </div>
+                </div><!-- End Services List -->
+
+                @* <div class="service-box">
+                    <h4>Download Catalog</h4>
+                    <div class="download-catalog">
+                        <a href="#"><i class="bi bi-filetype-pdf"></i><span>Catalog PDF</span></a>
+                        <a href="#"><i class="bi bi-file-earmark-word"></i><span>Catalog DOC</span></a>
+                    </div>
+                </div><!-- End Services List --> *@
+
+                <div class="help-box d-flex flex-column justify-content-center align-items-center">
+                    <i class="bi bi-headset help-icon"></i>
+                    <h4>Herhangi bir sorunuz var mı?</h4>
+                    <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>@contact.ContactMobilePhoneNumber</span></p>
+                    <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a href="mailto:@contact.ContactMailAddress">@contact.ContactMailAddress</a></p>
+                </div>
+
+            </div>
+
+            <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
+                <img src="~/WebTemplate/assets/img/services.jpg" alt="" class="img-fluid services-img">
+                <h3>@Model.Service.ServiceTitle</h3>
+                <p>
+                    @Model.Service.ServiceDescription
+                </p>
+                <ul>
+                    <li><i class="bi bi-check-circle"></i> <span>@Model.Service.FirstEffectiveSentence</span></li>
+                    <li><i class="bi bi-check-circle"></i> <span>@Model.Service.SecondEffectiveSentence</span></li>
+                    <li><i class="bi bi-check-circle"></i> <span>@Model.Service.ThirdEffectiveSentence</span></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</section><!-- /Service Details Section -->
+

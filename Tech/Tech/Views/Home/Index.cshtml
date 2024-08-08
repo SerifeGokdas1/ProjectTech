@@ -1,0 +1,161 @@
+﻿@using EntityLayer.Concrete
+@model AllEntities
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/WebsiteLayout.cshtml";
+   #region Slider
+    Slider latestSlider = Model.Sliders.LastOrDefault();
+
+    if (latestSlider != null || latestSlider == null)
+    {
+        latestSlider.SliderHeader = string.IsNullOrEmpty(latestSlider?.SliderHeader) ? "Varsayılan slider başlığı." : latestSlider.SliderHeader;
+        latestSlider.SliderText = string.IsNullOrEmpty(latestSlider?.SliderText) ? "Varsayılan slider texti." : latestSlider.SliderText;
+        latestSlider.SliderVideoLink = string.IsNullOrEmpty(latestSlider?.SliderVideoLink) ? "Varsayılan slider video link." : latestSlider.SliderVideoLink;
+        
+    }
+
+    #endregion
+
+    #region ServiceHeader
+    List<ServiceHeader> lastEightServiceHeader = Model.ServiceHeaders.Where(s => s.ServiceHeaderStatus).OrderByDescending(s => s.ServiceHeaderId).Take(8).Reverse().ToList();
+    List<ServiceHeader> serviceHeaderList = new List<ServiceHeader>();
+
+    for (int i = 0; i < 8; i++)
+    {
+        ServiceHeader serviceHeader;
+        if (i == 0)
+        {
+            serviceHeader = lastEightServiceHeader.FirstOrDefault();
+            serviceHeaderList.Add(serviceHeader);
+        }
+        else
+        {
+            serviceHeader = lastEightServiceHeader.Skip(i).FirstOrDefault();
+            serviceHeaderList.Add(serviceHeader);
+        }
+    }
+    for (int i = 0; i < serviceHeaderList.Count; i++)
+    {
+        if (serviceHeaderList[i] != null || serviceHeaderList[i] == null)
+        {
+            serviceHeaderList[i].ServiceHeaderKeyword = string.IsNullOrEmpty(serviceHeaderList[i]?.ServiceHeaderKeyword) ? "ilk kelime" : serviceHeaderList[i]?.ServiceHeaderKeyword;
+            serviceHeaderList[i].ServiceHeaderDescription = string.IsNullOrEmpty(serviceHeaderList[i]?.ServiceHeaderDescription) ? "Varsayılan başlık  ilk açıklama." : serviceHeaderList[i]?.ServiceHeaderDescription;
+        }
+        // else
+        // {
+        //     // serviceHeaderList[i] = new ServiceHeader
+        //     //         {
+        //     //             ServiceHeaderKeyword = "",
+        //     //         };
+        // }
+    }
+    #endregion
+}
+
+<section id="hero" class="hero section dark-background">
+
+    <img src="~/WebTemplate/assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4">
+                <h1 data-aos="fade-up">@latestSlider.SliderHeader</h1>
+                <blockquote data-aos="fade-up" data-aos-delay="100">
+                    <p>@latestSlider.SliderText</p>
+                </blockquote>
+                <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+                    @* <a href="#about" class="btn-get-started">Get Started</a> *@
+                    @* <a href="https://www.youtube.com/watch?v=QZrMMdjXZHk&ab_channel=Promineo" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Videoyu İzle</span></a> *@
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section><!-- /Hero Section -->
+
+<!-- Why Us Section -->
+@await Component.InvokeAsync("AboutComponent");
+<!-- /Why Us Section -->
+
+<!-- Services Section -->
+@await Component.InvokeAsync("ServiceComponent");
+<!-- /Services Section -->
+
+<!-- Features Section -->
+<section id="features" class="features section ">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="mb-0">Geleceği şekillendirirken</h3>
+                <h3>olmazsa olmaz değerlerimiz</h3>
+
+                <div class="row gy-4">
+                    @for (int i =0; i<8; i++)
+                    {
+                        <div class="col-md-6">
+                            <div class="icon-list d-flex">
+                                <i class="bi bi-lightbulb" style="color: #ff8b2c;"></i>
+                                <span>@serviceHeaderList[i].ServiceHeaderKeyword</span>
+                            </div>
+                        </div>
+
+                        <!-- End Icon List Item-->
+                    }
+                </div>
+            </div>
+            <div class="col-lg-5 position-relative" data-aos="zoom-out" data-aos-delay="200">
+                <div class="phone-wrap">
+                    <img src="~/WebTemplate/assets/img/imagehome.png" alt="Image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="details">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <h4>@latestSlider.SliderHeader</h4>
+                    <p>@latestSlider.SliderText</p>
+                    <a href="#" class="btn-get-started">Hadi Başlayılım!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section><!-- /Features Section -->
+
+@*<!-- Recent Posts Section -->
+<section id="recent-posts" class="recent-posts section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Recent Blog Posts</h2>
+
+    </div><!-- End Section Title -->
+
+    <div class="container">
+
+        <div class="row gy-5">
+
+            <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="post-box">
+                    <div class="post-img"><img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt=""></div>
+                    <div class="meta">
+                        <span class="post-date">Tue, December 12</span>
+                        <span class="post-author"> / Julia Parker</span>
+                    </div>
+                    <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis</h3>
+                    <p>Illum voluptas ab enim placeat. Adipisci enim velit nulla. Vel omnis laudantium. Asperiores eum ipsa est officiis. Modi qui magni est...</p>
+                    <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section><!-- /Recent Posts Section --> *@
+

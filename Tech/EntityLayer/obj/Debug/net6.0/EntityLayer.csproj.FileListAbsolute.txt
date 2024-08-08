@@ -1,0 +1,11 @@
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\EntityLayer\bin\Debug\net6.0\EntityLayer.deps.json
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\EntityLayer\bin\Debug\net6.0\EntityLayer.dll
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\EntityLayer\bin\Debug\net6.0\EntityLayer.pdb
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\EntityLayer\obj\Debug\net6.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfo.cs
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\EntityLayer\obj\Debug\net6.0\EntityLayer.dll
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\EntityLayer\obj\Debug\net6.0\refint\EntityLayer.dll
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\EntityLayer\obj\Debug\net6.0\EntityLayer.pdb
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\EntityLayer\obj\Debug\net6.0\ref\EntityLayer.dll

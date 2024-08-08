@@ -1,0 +1,77 @@
+﻿@using EntityLayer.Concrete
+@model AllEntities
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/WebsiteLayout.cshtml";
+
+    #region About
+
+    About latestAbout = Model.Abouts.LastOrDefault();
+    if (latestAbout != null || latestAbout ==null)
+    {
+        latestAbout.AboutTitle = string.IsNullOrEmpty(latestAbout?.AboutTitle) ? "Varsayılan hakkımızda başlığı." : latestAbout.AboutTitle;
+        latestAbout.AboutDetail = string.IsNullOrEmpty(latestAbout?.AboutDetail) ? "Varsayılan hakkımızda detay yazısı." : latestAbout.AboutDetail;
+        latestAbout.AboutFirstImage = string.IsNullOrEmpty(latestAbout?.AboutFirstImage) ? "Varsayılan hakkımızda resmi." : latestAbout.AboutFirstImage;
+        latestAbout.AboutFirstSentence = string.IsNullOrEmpty(latestAbout?.AboutFirstSentence) ? "Varsayılan hakkımızda ilk cümlesi." : latestAbout.AboutFirstSentence;
+        latestAbout.AboutSecondSentence = string.IsNullOrEmpty(latestAbout?.AboutSecondSentence) ? "Varsayılan hakkımızda ikinci cümlesi." : latestAbout.AboutSecondSentence;
+        latestAbout.AboutThirdSentence = string.IsNullOrEmpty(latestAbout?.AboutThirdSentence) ? "Varsayılan hakkımızda üçüncü cümlesi." : latestAbout.AboutThirdSentence;
+        latestAbout.AboutSecondImage = string.IsNullOrEmpty(latestAbout?.AboutSecondImage) ? "Varsayılan hakkımızda  ikinci resmi." : latestAbout.AboutSecondImage;
+        latestAbout.AboutFirstTitle = string.IsNullOrEmpty(latestAbout?.AboutFirstTitle) ? "Varsayılan hakkımızda ilk başlık." : latestAbout.AboutFirstTitle;
+        latestAbout.AboutFirstExplanation = string.IsNullOrEmpty(latestAbout?.AboutFirstExplanation) ? "Varsayılan ilk açıklama." : latestAbout.AboutFirstExplanation;
+        latestAbout.AboutSecondTitle = string.IsNullOrEmpty(latestAbout?.AboutSecondTitle) ? "Varsayılan  ikinci başlık." : latestAbout.AboutSecondTitle;
+        latestAbout.AboutSecondExplanation = string.IsNullOrEmpty(latestAbout?.AboutSecondExplanation) ? "Varsayılan ikinci açıklama." : latestAbout.AboutSecondExplanation;
+        latestAbout.AboutThirdTitle = string.IsNullOrEmpty(latestAbout?.AboutThirdTitle) ? "Varsayılan üçüncü başlık." : latestAbout.AboutThirdTitle;
+        latestAbout.AboutThirdExplanation = string.IsNullOrEmpty(latestAbout?.AboutThirdExplanation) ? "Varsayılan üçüncü açıklama." : latestAbout.AboutThirdExplanation;
+        latestAbout.AboutFourthTitle = string.IsNullOrEmpty(latestAbout?.AboutFourthTitle) ? "Varsayılan dördüncü başlık." : latestAbout.AboutFourthTitle;
+        latestAbout.AboutFourthExplanation = string.IsNullOrEmpty(latestAbout?.AboutFourthExplanation) ? "Varsayılan dördüncü açıklama." : latestAbout.AboutFourthExplanation;
+        latestAbout.AboutFooterImage = string.IsNullOrEmpty(latestAbout?.AboutFooterImage) ? "Varsayılan footer resim." : latestAbout.AboutFooterImage;
+        latestAbout.AboutFooterTitle = string.IsNullOrEmpty(latestAbout?.AboutFooterTitle) ? "Varsayılan footer başlık." : latestAbout.AboutFooterTitle;
+        latestAbout.AboutFooterText = string.IsNullOrEmpty(latestAbout?.AboutFooterText) ? "Varsayılan footer açıklama." : latestAbout.AboutFooterText;
+    }
+    #endregion
+
+}
+
+<!-- Page Title -->
+<div class="page-title dark-background" data-aos="fade" style="background-image: url(~/WebTemplate/assets/img/about-page-title-bg.jpg);">
+    <div class="container">
+        <h1>Hakkımızda</h1>
+        <nav class="breadcrumbs">
+            <ol>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li class="current">Hakkımızda</li>
+            </ol>
+        </nav>
+    </div>
+</div><!-- End Page Title -->
+
+<section id="about" class="about section">
+
+    <div class="container">
+
+        <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-5">
+                <img src="~/WebTemplate/assets/img/about.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+                <div class="content">
+                    <h3>@latestAbout.AboutTitle</h3>
+                    <p>
+                        @latestAbout.AboutDetail
+                    </p>
+                    <ul>
+                        <li><i class="bi bi-check-circle-fill"></i> <span>@latestAbout.AboutFirstSentence</span></li>
+                        <li><i class="bi bi-check-circle-fill"></i> <span>@latestAbout.AboutSecondSentence</span></li>
+                        <li><i class="bi bi-check-circle-fill"></i> <span>@latestAbout.AboutThirdSentence</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section><!-- /About Section -->
+@await Component.InvokeAsync("AboutComponent")
+
+

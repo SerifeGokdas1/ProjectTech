@@ -1,0 +1,110 @@
+﻿@using EntityLayer.Concrete
+@model AllEntities
+
+@{
+    Layout = null;
+
+    #region Contact
+    Contact latestContact = Model.Contacts.LastOrDefault();
+
+    if (latestContact != null)
+    {
+        latestContact.ContactAddress = string.IsNullOrEmpty(latestContact?.ContactAddress) ? "Varsayılan adress" : latestContact.ContactAddress;
+        latestContact.ContactMobilePhoneNumber = string.IsNullOrEmpty(latestContact?.ContactMobilePhoneNumber) ? "Varsayılan iletişim numarası" : latestContact.ContactMobilePhoneNumber;
+        latestContact.ContactMailAddress = string.IsNullOrEmpty(latestContact?.ContactMailAddress) ? "Varsayılan mail adresi" : latestContact.ContactMailAddress;
+        latestContact.ContactInstagram = string.IsNullOrEmpty(latestContact?.ContactInstagram) ? "Varsayılan hakkımızda başlığı." : latestContact.ContactInstagram;
+        latestContact.ContactYoutube = string.IsNullOrEmpty(latestContact?.ContactYoutube) ? "Varsayılan hakkımızda başlığı." : latestContact.ContactYoutube;
+        latestContact.ContactFacebook = string.IsNullOrEmpty(latestContact?.ContactFacebook) ? "Varsayılan hakkımızda başlığı." : latestContact.ContactFacebook;
+        latestContact.ContactX = string.IsNullOrEmpty(latestContact?.ContactX) ? "Varsayılan hakkımızda başlığı." : latestContact.ContactX;
+        latestContact.ContactLinkedIn = string.IsNullOrEmpty(latestContact?.ContactLinkedIn) ? "Varsayılan hakkımızda başlığı." : latestContact.ContactLinkedIn;
+    }
+    else
+    {
+        latestContact = new Contact
+                {
+                    ContactAddress = "Varsayılan adress",
+                    ContactMobilePhoneNumber = "Varsayılan iletişim numarası",
+                    ContactMailAddress = "Varsayılan mail adresi",
+                    ContactInstagram = "Varsayılan ContactInstagram",
+                    ContactYoutube = "Varsayılan ContactYoutube",
+                    ContactFacebook = "Varsayılan ContactFacebook",
+                    ContactX = "Varsayılan ContactX",
+                    ContactLinkedIn = "Varsayılan ContactLinkedIn"
+                };
+    }
+    #endregion
+
+    #region AboutDetail
+    var aboutDetail = Model.Abouts.LastOrDefault().AboutDetail;
+    #endregion
+
+    #region ServiceNames
+    List<string> serviceNames = Model.Services.Where(x => x.ServiceStatus).OrderByDescending(s => s.ServiceId).Select(x => x.ServiceName).Take(4).ToList();
+
+
+    #endregion
+}
+
+<footer id="footer" class="footer light-background">
+
+    <div class="footer-top">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-5 col-md-12 footer-about">
+                    <a href="/Home/Index" class="logo d-flex align-items-center">
+                        <span class="sitename">Tech</span>
+                    </a>
+                    <p>@aboutDetail</p>
+                    <div class="social-links d-flex mt-4">
+                        <a href="@latestContact.ContactX"><i class="bi bi-twitter-x"></i></a>
+                        <a href="@latestContact.ContactFacebook"><i class="bi bi-facebook"></i></a>
+                        <a href="@latestContact.ContactInstagram"><i class="bi bi-instagram"></i></a>
+                        <a href="@latestContact.ContactLinkedIn"><i class="bi bi-linkedin"></i></a>
+                        <a href="@latestContact.ContactYoutube"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-6 footer-links">
+                    <h4>Sayfalar</h4>
+                    <ul>
+                        <li><a href="/Home/Index">Anasayfa</a></li>
+                        <li><a href="/About/Index">Hakkımızda</a></li>
+                        <li><a href="/Service/Index">Hizmetlerimiz</a></li>
+                        @* <li><a href="/Team/Index">Ekip</a></li> *@
+                        <li><a href="/Contact/Index">İletişim</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-6 footer-links">
+                    <h4>Hizmetlerimiz</h4>
+                    <ul>
+                        @for(int i=0; i<serviceNames.Count; i++)
+                        {
+                            <li><a href="/Service/Index">@serviceNames[i]</a></li>
+                        }
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+                    <h4>Bizimle İletişime Geç</h4>
+                    <p>@latestContact.ContactAddress</p>
+                    <p class="mt-4"><strong>İletişim Numarası:</strong> <span>@latestContact.ContactMobilePhoneNumber</span></p>
+                    <p><strong>Email:</strong> <span>@latestContact.ContactMailAddress</span></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container copyright text-center">
+        <p>© <span>Telif Hakkı</span> <strong class="px-1 sitename">Tech</strong> <span>Tüm Hakları Saklıdır.</span></p>
+        <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you've purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+            <a href="/Home/Index">Tech firması</a> tarafından tasarlandı.
+        </div>
+    </div>
+
+</footer>

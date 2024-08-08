@@ -1,0 +1,187 @@
+﻿@using EntityLayer.Concrete
+@model AllEntities
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/WebsiteLayout.cshtml";
+
+    #region Contact
+    Contact latestContact = Model.Contacts.LastOrDefault();
+
+    if (latestContact != null)
+    {
+        latestContact.ContactAddress = string.IsNullOrEmpty(latestContact?.ContactAddress) ? "Varsayılan adress" : latestContact.ContactAddress;
+        latestContact.ContactMobilePhoneNumber = string.IsNullOrEmpty(latestContact?.ContactMobilePhoneNumber) ? "Varsayılan iletişim numarası" : latestContact.ContactMobilePhoneNumber;
+        latestContact.ContactMailAddress = string.IsNullOrEmpty(latestContact?.ContactMailAddress) ? "Varsayılan mail adresi" : latestContact.ContactMailAddress;
+        latestContact.ContactInstagram = string.IsNullOrEmpty(latestContact?.ContactInstagram) ? "Varsayılan hakkımızda başlığı." : latestContact.ContactInstagram;
+        latestContact.ContactYoutube = string.IsNullOrEmpty(latestContact?.ContactYoutube) ? "Varsayılan hakkımızda başlığı." : latestContact.ContactYoutube;
+        latestContact.ContactFacebook = string.IsNullOrEmpty(latestContact?.ContactFacebook) ? "Varsayılan hakkımızda başlığı." : latestContact.ContactFacebook;
+        latestContact.ContactX = string.IsNullOrEmpty(latestContact?.ContactX) ? "Varsayılan hakkımızda başlığı." : latestContact.ContactX;
+        latestContact.ContactLinkedIn = string.IsNullOrEmpty(latestContact?.ContactLinkedIn) ? "Varsayılan hakkımızda başlığı." : latestContact.ContactLinkedIn;
+    }
+    else
+    {
+        latestContact = new Contact
+                {
+                    ContactAddress = "Varsayılan adress",
+                    ContactMobilePhoneNumber = "Varsayılan iletişim numarası",
+                    ContactMailAddress = "Varsayılan mail adresi",
+                    ContactInstagram = "Varsayılan ContactInstagram",
+                    ContactYoutube = "Varsayılan ContactYoutube",
+                    ContactFacebook = "Varsayılan ContactFacebook",
+                    ContactX = "Varsayılan ContactX",
+                    ContactLinkedIn = "Varsayılan ContactLinkedIn"
+                };
+    }
+    #endregion
+
+
+    // #region MailReturnMessage
+    // var successMessage = TempData["SuccessMessage"] as string;
+    // var errorMessage = TempData["ErrorMessage"] as string;
+    // #endregion
+}
+
+<!-- Page Title -->
+<div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/contact-page-title-bg.jpg);">
+    <div class="container">
+        <h1>İletişim</h1>
+        <nav class="breadcrumbs">
+            <ol>
+                <li><a href="/Home/Index">Anasayfa</a></li>
+                <li class="current">İletişim</li>
+            </ol>
+        </nav>
+    </div>
+</div><!-- End Page Title -->
+<!-- Contact Section -->
+<section id="contact" class="contact section">
+
+    <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+            <div class="col-lg-4">
+                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                    <i class="bi bi-geo-alt flex-shrink-0"></i>
+                    <div>
+                        <h3>Adres</h3>
+                        <p>@latestContact.ContactAddress</p>
+                    </div>
+                </div><!-- End Info Item -->
+
+                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                    <i class="bi bi-telephone flex-shrink-0"></i>
+                    <div>
+                        <h3>Bizimle İletişime Geçin</h3>
+                        <p>@latestContact.ContactMobilePhoneNumber</p>
+                    </div>
+                </div><!-- End Info Item -->
+
+                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                    <i class="bi bi-envelope flex-shrink-0"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>@latestContact.ContactMailAddress</p>
+                    </div>
+                </div><!-- End Info Item -->
+
+            </div>
+            
+            <div class="col-lg-4">
+                <iframe class="position-relative rounded w-100 h-100"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d20248.323738815918!2d28.914614235408397!3d41.02675823303893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1722407951255!5m2!1str!2str"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+
+            <div class="col-lg-4">
+                <form method="post">
+                    <div class="row gy-4">
+
+                        <div class="col-md-6">
+                            <input type="text" name="ContactNameSurname" class="form-control" placeholder="Adınız:" required="">
+                        </div>
+
+                        <div class="col-md-6 ">
+                            <input type="email" class="form-control" name="ContactMailAddress" placeholder="Mailiniz:" required="">
+                        </div>
+
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" name="ContactMailSubject" placeholder="Konunuz:" required="">
+                        </div>
+
+                        <div class="col-md-12">
+                            <textarea class="form-control" name="ContactMailMessage" rows="6" placeholder="Mesajınız:" required=""></textarea>
+                        </div>
+                    <div>
+                        <input class="form-control" type="submit" value="GÖNDER" />
+                    </div>
+                </form>
+            </div>
+
+            @* <div class="col-lg-4">
+                <form method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
+                    <div class="row gy-4">
+
+                        <div class="col-md-6">
+                            <input type="text" name="ContactNameSurname" class="form-control" placeholder="Adınız" required="">
+                        </div>
+
+                        <div class="col-md-6 ">
+                            <input type="email" class="form-control" name="ContactMailAddress" placeholder="Mail Adresiniz:" required="">
+                        </div>
+
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" name="ContactMailSubject" placeholder="Mail Konunuz:" required="">
+                        </div>
+
+                        <div class="col-md-12">
+                            <textarea class="form-control" name="ContactMailMessage" rows="6" placeholder="Mesajınız:" required=""></textarea>
+                        </div>
+
+                        <div class="col-md-12 text-center">
+                             <div class="loading">Yükleniyor...</div>
+                            <div class="error-message">Mailiniz gönderilme aşamasında bir problem oluştu. Lütfen tekrar deneyiniz!</div> 
+                           <div class="sent-message">Mailiniz başarıyla gönderildi. Teşekkürler!</div>  
+                            <div class="loading">Yükleniyor...</div>
+
+                            <button type="submit">Mail Gönder</button>
+                        </div>
+
+                    </div>
+                </form>
+            </div><!-- End Contact Form --> *@
+
+        </div>
+
+    </div>
+
+</section><!-- /Contact Section -->
+
+@* <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var successMessage = '@successMessage';
+        var errorMessage = '@errorMessage';
+
+        if (successMessage) {
+            Swal.fire({
+                title: 'Başarılı!',
+                text: successMessage,
+                icon: 'success',
+                confirmButtonText: 'Tamam'
+            });
+        } else if (errorMessage) {
+            Swal.fire({
+                title: 'Hata!',
+                text: errorMessage,
+                icon: 'error',
+                confirmButtonText: 'Tamam'
+            });
+        }
+    });
+</script> *@
+
+

@@ -1,0 +1,861 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Tech.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Tech.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\Readme.txt",
+      "PackagePath": "staticwebassets\\WebTemplate\\Readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\about.html",
+      "PackagePath": "staticwebassets\\WebTemplate\\about.html"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\about-page-title-bg.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\about-page-title-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog-page-title-bg.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog-page-title-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog\\blog-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog\\blog-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog\\blog-author-2.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog\\blog-author-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog\\blog-author-3.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog\\blog-author-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog\\blog-author-4.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog\\blog-author-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog\\blog-author-5.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog\\blog-author-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog\\blog-author-6.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog\\blog-author-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog\\blog-author.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog\\blog-author.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog\\blog-inside-post.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog\\blog-inside-post.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog\\blog-recent-1.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog\\blog-recent-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog\\blog-recent-2.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog\\blog-recent-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog\\blog-recent-3.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog\\blog-recent-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog\\blog-recent-4.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog\\blog-recent-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog\\blog-recent-5.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog\\blog-recent-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog\\comments-1.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog\\comments-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog\\comments-2.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog\\comments-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog\\comments-3.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog\\comments-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog\\comments-4.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog\\comments-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog\\comments-5.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog\\comments-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\blog\\comments-6.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\blog\\comments-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\cards-1.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\cards-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\cards-3.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\cards-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\cards-4.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\cards-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\cards-5.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\cards-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\contact-bg.png",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\contact-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\contact-page-title-bg.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\contact-page-title-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\cta-bg.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\cta-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\homeimage.png",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\homeimage.png"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\imagehome.png",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\imagehome.png"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\iphone.png",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\iphone.png"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\portfolio-page-title-bg.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\portfolio-page-title-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\portfolio\\app-1.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\portfolio\\app-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\portfolio\\app-2.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\portfolio\\app-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\portfolio\\app-3.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\portfolio\\app-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\portfolio\\books-1.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\portfolio\\books-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\portfolio\\books-2.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\portfolio\\books-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\portfolio\\books-3.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\portfolio\\books-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\portfolio\\branding-1.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\portfolio\\branding-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\portfolio\\branding-2.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\portfolio\\branding-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\portfolio\\branding-3.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\portfolio\\branding-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\portfolio\\product-1.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\portfolio\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\portfolio\\product-2.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\portfolio\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\portfolio\\product-3.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\portfolio\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\services-page-title-bg.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\services-page-title-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\services.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\services.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\team-page-title-bg.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\team-page-title-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\team\\team-1.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\team\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\team\\team-2.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\team\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\team\\team-3.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\team\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\team\\team-4.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\team\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\testimonials\\testimonials-1.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\testimonials\\testimonials-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\testimonials\\testimonials-2.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\testimonials\\testimonials-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\testimonials\\testimonials-3.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\testimonials\\testimonials-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\testimonials\\testimonials-4.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\testimonials\\testimonials-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\testimonials\\testimonials-5.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\testimonials\\testimonials-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\img\\why-us-bg.jpg",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\img\\why-us-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\scss\\Readme.txt",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\scss\\Readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\aos\\aos.cjs.js",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\aos\\aos.cjs.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\aos\\aos.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\aos\\aos.esm.js",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\aos\\aos.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\aos\\aos.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\aos\\aos.js.map",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\aos\\aos.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\imagesloaded\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\imagesloaded\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\isotope-layout\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\isotope-layout\\isotope.pkgd.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\isotope-layout\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\isotope-layout\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\assets\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\WebTemplate\\assets\\vendor\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\blog-details.html",
+      "PackagePath": "staticwebassets\\WebTemplate\\blog-details.html"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\blog.html",
+      "PackagePath": "staticwebassets\\WebTemplate\\blog.html"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\contact.html",
+      "PackagePath": "staticwebassets\\WebTemplate\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\forms\\Readme.txt",
+      "PackagePath": "staticwebassets\\WebTemplate\\forms\\Readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\forms\\contact.php",
+      "PackagePath": "staticwebassets\\WebTemplate\\forms\\contact.php"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\index.html",
+      "PackagePath": "staticwebassets\\WebTemplate\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\portfolio-details.html",
+      "PackagePath": "staticwebassets\\WebTemplate\\portfolio-details.html"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\portfolio.html",
+      "PackagePath": "staticwebassets\\WebTemplate\\portfolio.html"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\service-details.html",
+      "PackagePath": "staticwebassets\\WebTemplate\\service-details.html"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\services.html",
+      "PackagePath": "staticwebassets\\WebTemplate\\services.html"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\WebTemplate\\team.html",
+      "PackagePath": "staticwebassets\\WebTemplate\\team.html"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Şerife GÖKDAŞ\\source\\repos\\Tech\\Tech\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Tech.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Tech.props",
+      "PackagePath": "build\\Tech.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Tech.props",
+      "PackagePath": "buildMultiTargeting\\Tech.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Tech.props",
+      "PackagePath": "buildTransitive\\Tech.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

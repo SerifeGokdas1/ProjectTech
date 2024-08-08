@@ -1,0 +1,118 @@
+﻿@using EntityLayer.Concrete
+@model AllEntities
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/WebsiteLayout.cshtml";
+
+    #region Service
+    List<Service> lastFourServices = Model.Services.Where(s => s.ServiceStatus).OrderByDescending(s => s.ServiceId).Take(4).ToList();
+    List<Service> serviceList = new List<Service>();
+
+    for (int i = 0; i < 4; i++)
+    {
+        Service service;
+        if (i == 0)
+        {
+            service = lastFourServices.FirstOrDefault();
+            serviceList.Add(service);
+        }
+        else
+        {
+            service = lastFourServices.Skip(i).FirstOrDefault();
+            serviceList.Add(service);
+        }
+    }
+    for (int i = 0; i < serviceList.Count; i++)
+    {
+        if (serviceList[i] != null)
+        {
+            serviceList[i].ServiceName = string.IsNullOrEmpty(serviceList[i]?.ServiceName) ? "Varsayılan ilk name" : serviceList[i]?.ServiceName;
+            serviceList[i].ServiceTitle = string.IsNullOrEmpty(serviceList[i]?.ServiceTitle) ? "Varsayılan  ilk servis başlığı." : serviceList[i]?.ServiceTitle;
+            serviceList[i].ServiceDescription = string.IsNullOrEmpty(serviceList[i]?.ServiceDescription) ? "Varsayılan  ilk servis açıklaması." : serviceList[i]?.ServiceDescription;
+            serviceList[i].ServiceImage = string.IsNullOrEmpty(serviceList[i]?.ServiceImage) ? "Varsayılan  resim" : serviceList[i]?.ServiceImage;
+            serviceList[i].FirstEffectiveSentence = string.IsNullOrEmpty(serviceList[i]?.FirstEffectiveSentence) ? "Varsayılan ilk servis  ilk anahtar kelime." : serviceList[i]?.FirstEffectiveSentence;
+            serviceList[i].SecondEffectiveSentence = string.IsNullOrEmpty(serviceList[i]?.SecondEffectiveSentence) ? "Varsayılan ilk servis  ikinci anahtar kelime." : serviceList[i]?.SecondEffectiveSentence;
+            serviceList[i].ThirdEffectiveSentence = string.IsNullOrEmpty(serviceList[i]?.ThirdEffectiveSentence) ? "Varsayılan ilk servis  üçüncü anahtar kelime." : serviceList[i]?.ThirdEffectiveSentence;
+        }
+        else
+        {
+            // serviceList[i] = new Service
+            //         {
+            //             ServiceName = "",
+            //         };
+        }
+    }
+
+    #endregion
+
+}
+
+<!-- Page Title -->
+<div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/services-page-title-bg.jpg);">
+    <div class="container">
+        <h1>Hizmetlerimiz</h1>
+        <nav class="breadcrumbs">
+            <ol>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li class="current">Hizmetlerimiz</li>
+            </ol>
+        </nav>
+    </div>
+</div><!-- End Page Title -->
+<!-- Services Section -->
+
+
+@await Component.InvokeAsync("ServiceComponent");
+
+<section id="service-cards" class="service-cards section">
+
+    <div class="container-fluid">
+
+        <div class="row gy-4">
+            @for (int i = 0; i < 4; i++)
+            {
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-item">
+                        <div class="row">
+                            <div class="col-xl-5">
+                                <div class="card-bg"><img src="~/WebTemplate/assets/img/cards-1.jpg" alt=""></div>
+                            </div>
+                            <div class="col-xl-7 d-flex align-items-center">
+                                <div class="card-body">
+                                    <h4 class="card-title">@serviceList[i].ServiceName</h4>
+                                    <p>@serviceList[i].ServiceDescription</p>
+                                    <br />
+                                    <a href="/Service/ServiceDetail/@serviceList[i].ServiceId" class="readmore stretched-link"><span>Daha Fazla Öğren</span><i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End Card Item -->
+            }
+        </div>
+
+    </div>
+
+</section><!-- /Service Cards Section -->
+<!-- Call To Action Section -->
+<section id="call-to-action" class="call-to-action section dark-background">
+
+    <img src="~/WebTemplate/assets/img/cta-bg.jpg" alt="">
+
+    <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+            <div class="col-xl-10">
+                <div class="text-center">
+                    <h3>Bizimle İletişime Geçin</h3>
+                    <p>Teknoloji çözümlerimiz hakkında daha fazla bilgi için bizimle iletişime geçin. Size yardımcı olmaktan memnuniyet duyarız.</p>
+                    @* <a class="cta-btn" href="#">Call To Action</a> *@
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section><!-- /Call To Action Section -->
+
+

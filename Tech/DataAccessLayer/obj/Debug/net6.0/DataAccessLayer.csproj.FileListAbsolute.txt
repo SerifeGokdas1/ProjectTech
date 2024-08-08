@@ -1,0 +1,17 @@
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.runtimeconfig.json
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\DataAccessLayer\bin\Debug\net6.0\EntityLayer.dll
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\DataAccessLayer\bin\Debug\net6.0\EntityLayer.pdb
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\DataAccessLayer\obj\Debug\net6.0\DataAcce.E67BD773.Up2Date
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.dll
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\Şerife GÖKDAŞ\source\repos\Tech\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll
